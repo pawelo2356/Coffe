@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&family=Roboto+Slab:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dosis:wght@300;500&display=swap');
 
 
 /* For the whole site*/
@@ -11,6 +11,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-family: dosis; 
 }
 
 body{
@@ -60,7 +61,6 @@ section{
 
 header .header-container h1{
     margin-left: 30px;
-    font-family: lobster;
     font-size: 2rem;
     letter-spacing: 0.1rem;
 }
@@ -70,6 +70,7 @@ header .header-container .logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 500;
 }
 
 header .header-container .logo img{
@@ -86,10 +87,9 @@ header .header-container .logo img{
     text-decoration: none;
     color: black;
     margin: 0 30px;
-    font-family: roboto slab;
     font-size: 1.5rem;
     transition: 0.3s;
-    
+    font-weight: 300;
 }
 
 .navbar ul li a:hover{
@@ -107,14 +107,14 @@ header .header-container .logo img{
 
 #general-info h1{
     font-size: 4rem;
-    font-family: lobster;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 
 #general-info h2{
     font-size: 2rem;
     line-height: 3rem;
-    font-family: roboto slab;
+    font-weight: 300;
 
 }
 
@@ -124,7 +124,6 @@ header .header-container .logo img{
     padding: 10px 30px;
     background-color: white;
     border: 3px solid rgb(255, 94, 0);
-    font-family: roboto slab;
     transition: 300ms ease all;
 }
 
