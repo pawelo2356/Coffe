@@ -36,6 +36,7 @@ section{
     align-items: center;
     text-align: center;
     width: 100%;
+    border-bottom: 5px solid black;
 }
 /*End of For the whole site*/
  
