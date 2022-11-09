@@ -156,3 +156,16 @@ header .header-container .logo img{
 }
 
 /* Google Map */
+
+@media only screen and (max-width: 650px){
+    .header-container{
+        padding: 0 15px;
+    }
+    header .header-container h1{
+        font-size: 1.5rem;
+    }
+
+    .navbar ul li a{
+        font-size: 1rem;
+        margin: 0 10px;
+    }
